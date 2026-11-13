@@ -1,0 +1,51 @@
+﻿# ==========================================
+# ARCHIVOS DE COMPILACIÓN (.NET)
+# ==========================================
+# Estas carpetas contienen el código compilado que se genera al darle F5.
+# No deben subirse porque se pueden generar de nuevo con "dotnet build".
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+# ==========================================
+# CONFIGURACIÓN DEL ENTORNO DE DESARROLLO
+# ==========================================
+# Archivos de configuración de Visual Studio (caché, historial, etc.)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# PAQUETES NUGET (Caché local)
+# ==========================================
+# Si tienes una carpeta de paquetes locales (raro hoy en día, pero común en proyectos viejos)
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+# ==========================================
+# ARCHIVOS DE CONFIGURACIÓN LOCAL (SECRETOS)
+# ==========================================
+# Si más adelante usas appsettings.json para bases de datos, descomenta esta línea.
+# appsettings.json
+# appsettings.Development.json
+
+# ==========================================
+# ARCHIVOS GENERADOS POR EL EDITOR
+# ==========================================
+*.swp
+*.*~
+project.lock.json
+.vscode/
